@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #a7daf0;
+    color: white;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('https://cdn.pixabay.com/photo/2016/11/19/18/06/feet-1840619_1280.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 4em;
+}
+
+.filter {
+    padding: 20px;
+    text-align: center;
+}
+
+.filter input {
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+}
+
+.shoes-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.shoe {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    background: white;
+    cursor: pointer;
+}
+
+.shoe img {
+    width: 100%;
+    height: auto;
+}
+
+.shoe p {
+    margin: 10px 0 0;
+    font-weight: bold;
+}
+
+.shoe-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.shoe-details img {
+    width: 300px;
+    height: auto;
+}
+
+.shoe-details table {
+    margin: 20px 0;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+}
+
+.shoe-details th, .shoe-details td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.shoe-details button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+.shoe-details button:hover {
+    background-color: #555;
+}
